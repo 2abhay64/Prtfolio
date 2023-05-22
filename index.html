@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">Port<span>folio</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio" class="project">Projects</a>
+            <a href="#certificate" class="certificate">Certificates</a>
+            <a href="#contact">Contact</a>                       
+        </nav>
+
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey! my name is</h3>
+            <h1>Abhay Raj Yadav</h1>
+            <h3>And I am a <span class="multiple-text">Frontend Developer</span></h3>
+            <p>I love to drink coffee. I live in lucknow and love to travel new places.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/abhayr.yadav.7" target="_blank"><i class='bx bxl-facebook'></i></a>
+                <a href="https://twitter.com/home" target="_blank"><i class='bx bxl-twitter'></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/abhay-yadav-a8511411a/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/2abhay64/Portfolio" target="_blank"><i class='bx bxl-github'></i></a>
+
+            </div>
+            <a href="./Images/my-cv.pdf" download class="button">Download CV</a>
+        </div>
+        <div class="home-image">
+            <img src="./Images/me.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="./Images/me.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>FrontEnd Developer</h3>
+            <p>I builds the front-end portion of websites and web applications—the part users see and interact with. A
+                front-end developer creates websites and applications using web languages such as HTML, CSS, and
+                JavaScript that allow users to access and interact with the site or app. I create awards winning websites 
+                with the best user experience & I do not talk much, just contact me.</p>
+            <!-- <a href="#" class="button">Read More</a> -->
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+        <li><span>Web Development</span><br>Web App Development</li>
+        <li><span>App Development</span><br>Building Android/ios Apps</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2022-current</span><br>FrontEnd Development internship at Skill-Lync</li>
+        <li><span>2018-2022</span><br>Operational Department at CityFurnish</li>
+        <li><span>2017-2018</span><br>internship at Continental</li>
+    </ul>
+</div>
+
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2022</span><br>FrontEnd Development internship at Skill-Lync</li>
+         <li><span>2015</span><br>B.Tech from AKTU Lucknow</li>
+    </ul>
+</div>
+
+        </div>
+
+    </section>
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web development is the building and maintenance of websites; it's the work that happens behind the
+                    scenes to make a website look great, work fast and perform well with a seamless user experience. Web
+                    developers, or 'devs', do this by using a variety of coding languages.</p>
+
+                <a href="#" class="button">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>Graphic design is a craft where professionals create visual content to communicate messages. By
+                    applying visual hierarchy and page layout techniques, designers use typography and pictures to meet
+                    users' specific needs and focus on the logic of displaying elements in interactive designs, to
+                    optimize the user experience</p>
+
+                <a href="#" class="button">Read More</a>
+
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Digital Marketing</h3>
+                <p>Digital marketing, also called online marketing, is the promotion of brands to connect with potential
+                    customers using the internet and other forms of digital communication. This includes not only email,
+                    social media, and web-based advertising, but also text and multimedia messages as a marketing
+                    channel</p>
+
+                <a href="#" class="button">Read More</a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Portfolio section design -->
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./Images/todos.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Todos</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/JjZVxzR
+                    "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="./Images/Github.jpg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Github Propfile</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/ExRzEJv"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/Password.jpg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Password Generater</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/MWBYdGe
+                    "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/Drinking water1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Drinking Water</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/rNKEEmB
+                    "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/Movie.jpg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Movie App</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/poZJNyM
+                    "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./Images/Quize.jpg.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Quize App</h4>
+                    <p>As a web designer, you are responsible for big-picture decisions, like the menus listed on the
+                        site, and smaller details, like which fonts, colors, and graphics to use</p>
+                    <a href="https://codepen.io/abhay-yadav/pen/gOjaJXe
+                    "><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Certificates section design -->
+
+    <section class="certificate" id="certificate">
+        <h2 class="heading">My <span>Certificates</span></h2>
+        <div class="certificate-container">
+            <div class="certificate-box">
+                <img src="./Images/front-end Devlopment.jpg" alt="">
+                <div class="certificate-layer">
+                    <h4>The Complete Front-End Development - 2.0</h4>
+                 </div>
+            </div>
+            <div class="certificate-box">
+                <img src="./Images/react.js Certificate.jpg" alt="">
+                <div class="certificate-layer">
+                    <h4> The Complete React.js (JavaScript Library)</h4>
+                 </div>
+            </div>
+            <div class="certificate-box">
+                <img src="./Images/java certificate.jpg" alt="">
+                <div class="certificate-layer">
+                    <h4>Introduction to Java Programming 2.0</h4>
+                 </div>
+            </div>
+           
+        </div>
+    </section>
+    <!-- contact section design -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#" name="submit-to-google-sheet">
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name">
+                <input type="email" name="mail" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" name="Contact" placeholder="Contact Number">
+                <input type="text" name="mailsubject" placeholder="Email Subject">
+            </div>
+            <textarea name="textarea" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+        <span id="msg"></span>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Abhay Raj Yadav Skill-Lync | All Rights Reserved</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./Script.js"></script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyS16CVu9mxMHzkxTo-C0x2LrlPTQPXSeNYyAMetgNcDrPdGXxu41HKPhgcVdhoxd2A0A/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(()=>{
+               msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+</body>
+
+</html>
